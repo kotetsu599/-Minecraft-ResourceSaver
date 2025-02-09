@@ -1,6 +1,7 @@
 # Minecraft Resource Saver
 
 このプロジェクトは、BungeeCord プラグインと Flask API を用いて、Minecraft のサーバーを自動的に起動・停止するシステムです。
+私のサーバー用なので、変数名が不明瞭かもしれません。
 
 ## 機能
 - **サーバーの自動停止:** サーバーが 5 分間無人になると、自動的にシャットダウン
@@ -49,5 +50,5 @@ GET /shutdown?password=パスワード
 ## 設定の変更
 - `FLASK_HOST` と `FLASK_PORT`: Flask サーバーのホストとポートを指定
 - `PASSWORD`: Flask API の認証パスワード
-- `CREATIVE_SERVER_NAME`: クリエイティブサーバーの名前
+- `CREATIVE_SERVER_NAME`: サーバーの名前
 - `SHUTDOWN_DELAY`: サーバーをシャットダウンするまでの待機時間
